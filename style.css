@@ -185,6 +185,21 @@ button:focus {
 .hero img {
     width: 15%;
     border-radius: 15px;
+    max-width: 800px;
+}
+
+/* Mobile devices (screens up to 768px) */
+@media (max-width: 768px) {
+    .hero img {
+        width: 70%;
+    }
+}
+
+/* Small mobile devices (screens up to 480px) */
+@media (max-width: 480px) {
+    .hero img {
+        width: 85%;
+    }
 }
 
 /* Section spacing */
