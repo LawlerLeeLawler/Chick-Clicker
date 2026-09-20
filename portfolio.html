@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawler Lee Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <a class="brand" href="#hero">Lawler Lee</a>
+  <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="nav-links" id="navLinks">
+    <a href="#hero" data-nav>Home</a>
+    <a href="#projects" data-nav>Projects</a>
+    <a href="#about" data-nav>About Me</a>
+    <a href="#contact" data-nav>Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <section id="hero" class="hero">
+    <p class="hero-eyebrow">Portfolio</p>
+    <h1>Hi, I'm <span class="hero-name">Elijah (Lawler Lee)</span>.<br>I'm a programmer and game developer</h1>
+    <p class="hero-sub">I'm a solo game developer wanting to join a team. I program in Visual Studio Code, make games in Unity, 3D model in Blender, and design user interfaces.</p>
+    <a href="#projects" class="btn-primary">View my work</a>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Highlight Projects</h2>
+    <p class="section-sub">A few things I've made recently. Click any of them to learn more.</p>
+
+    <div class="project-grid">
+
+      <a class="project-card" href="projects/chick-clicker.html">
+        <div class="project-thumb">
+          <img src="images/chick-clicker.png" alt="Chick Clicker screenshot">
+        </div>
+        <div class="project-info">
+          <h3>Chick Clicker</h3>
+          <p>Hatch chickens, collect rare foods, and grow your farm.</p>
+          <span class="project-link">View project</span>
+        </div>
+      </a>
+
+      <a class="project-card" href="projects/lost-in-the-grotto.html">
+        <div class="project-thumb">
+          <img src="images/lost-in-the-grotto.png" alt="Lost in the Grotto and Thievery screenshot">
+        </div>
+        <div class="project-info">
+          <h3>Lost in the Grotto and Thievery</h3>
+          <p>Low-poly first-person shooter game where you play as a goblin thief that must survive endless waves of armed skeletons.</p>
+          <span class="project-link">View project</span>
+        </div>
+      </a>
+
+      <a class="project-card" href="projects/fish-whistler.html">
+        <div class="project-thumb">
+          <img src="images/fish-whistler.png" alt="Fish Whistler screenshot">
+        </div>
+        <div class="project-info">
+          <h3>Fish Whistler</h3>
+          <p>Relaxing aquatic adventure where you explore a remote desert island and a mysterious ocean world.</p>
+          <span class="project-link">View project</span>
+        </div>
+      </a>
+
+      <a class="project-card" href="projects/sdf-terrain-generator.html">
+        <div class="project-thumb">
+          <img src="images/sdf-terrain-generator.jpg" alt="SDF Terrain Generator screenshot">
+        </div>
+        <div class="project-info">
+          <h3>SDF Terrain Generator</h3>
+          <p>POV you're a worm where you can build and destroy the environment.</p>
+          <span class="project-link">View project</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="about-portrait">
+      <img src="images/ProfilePic.jpeg" alt="Profile picture">
+    </div>
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>Hi, I'm Elijah (Lawler Lee). I'm a programmer and game developer. I've always enjoyed programming since I started coding 7 years ago. For two years I've been making games in Unity, doing 3D modeling in Blender, and programming in Visual Studio Code.</p>
+      <p>I got started in programming when I earned my bachelors in Computer Science. Since then, I've always wanted to create experiences and show a different perspective. Along the way I learned how every programming language works, I taught myself 3D modeling, and published two games on steam.</p>
+      <div class="skills">
+        <h3>Skills</h3>
+        <ul class="skill-list">
+          <li>Programming</li>
+          <li>Game Development</li>
+          <li>3D Modeling</li>
+          <li>UI Design</li>
+          <li>Project Management</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Get In Touch</h2>
+    <p class="section-sub">Let's work together and make something great!</p>
+    <a class="contact-email" href="mailto:lawlerleelawler@gmail.com">LawlerLeeLawler@gmail.com</a>
+    <ul class="contact-links">
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">LinkedIn</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fish Whistler</title>
+
+    <link rel="stylesheet" href="../fish-whistler.css">
+</head>
+<body>
+
+    <header>
+        <div class="site-header">
+            <a class="corner-link" href="../portfolio.html" aria-label="Back to Portfolio">
+                <img src="images/Home Icon.png">
+            </a>
+
+            <div class="header-title">
+                <span class="title-icon"><img src="images/fish-whistler/Icon.png"></span>
+                <h1>Fish Whistler</h1>
+                <span class="version">v1.0.0</span>
+            </div>
+
+            <a class="corner-link" href="https://github.com/LawlerLeeLawler/Chick-Clicker" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <img src="images/Github Icon.png">
+            </a>
+        </div>
+
+        <div class="content-block">
+            <h2 class="content-heading">What is Fish Whistler?</h2>
+            <div class="content-divider"></div>
+            <p>My most recent project still in development where I am learning how to create HD Terrains, Endless Oceans with Underwater Environments, Realistic Lighting, Volumetric Clouds, and Physical Skies.</p>
+            <p>
+                I started developing Fish Whistler in July of 2026 and am still working on it. I'm developing this game using Unity High Definition Render Pipeline, 3D modeling the environment in Blender, and programming in C#.
+            </p>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <video class="hero-video-large" autoplay loop muted playsinline>
+            <source src="images/fish-whistler/Movie_001.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section class="features content-block">
+
+        <h2>Features</h2>
+        <div class="features-divider"></div>
+
+        <ul>
+
+            <li>Volumetric Clouds</li>
+
+            <li>Endless Ocean</li>
+
+            <li>Physical Sun</li>
+
+            <li>HD Lighting</li>
+
+            <li>Custom Terrain</li>
+
+            <li>Underwater Environment</li>
+
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Screenshots</h2>
+
+        <div class="screenshot-grid">   
+
+            <img src="images/fish-whistler/Screenshot_1.png" onclick="openLightbox(this.src)">
+
+            <img src="images/fish-whistler/Screenshot_2.png" onclick="openLightbox(this.src)">
+
+            <img src="images/fish-whistler/Screenshot_3.png" onclick="openLightbox(this.src)">
+
+            <img src="images/fish-whistler/Screenshot_4.png" onclick="openLightbox(this.src)">
+
+            <img src="images/fish-whistler/Screenshot_5.png" onclick="openLightbox(this.src)">
+
+            <img src="images/fish-whistler/Screenshot_6.png" onclick="openLightbox(this.src)">
+
+        </div>
+
+    </section>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="">
+    </div>
+
+    <script src="../script.js"></script>
+
+</body>
+</html>

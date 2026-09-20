@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lost in the Grotto and Thievery</title>
+
+    <link rel="stylesheet" href="../lost-in-the-grotto.css">
+</head>
+<body>
+
+    <header>
+        <div class="site-header">
+            <a class="corner-link" href="../portfolio.html" aria-label="Back to Portfolio">
+                <img src="images/Home Icon.png">
+            </a>
+
+            <div class="header-title">
+                <span class="title-icon"><img src="images/lost-in-the-grotto/Icon.ico"></span>
+                <h1>Lost in the Grotto and Thievery</h1>
+                <span class="version">v1.0.0</span>
+            </div>
+
+            <a class="corner-link" href="https://github.com/LawlerLeeLawler/Chick-Clicker" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <img src="images/Github Icon.png">
+            </a>
+        </div>
+
+        <div class="content-block">
+            <h2 class="content-heading">What is Lost in the Grotto and Thievery?</h2>
+            <div class="content-divider"></div>
+            <p>It's a fast-paced, low-poly first-person shooter where you play as a goblin thief that must survive endless waves of armed skeletons, scavenge for loot, and unlock powerful upgrades.</p>
+            <p>
+                I started developing Lost in the Grotto and Thievery in April 2025 and released it in May 2026. I solo developed this game using C# in Visual Studio Code, 3D modeled the characters and made poseable skeletons in Blender, and used Unity Game Engine.
+            </p>
+            <p>If you wish to support the development of Lost in the Grotto and Thievery, please wishlist it on Steam.</p>
+            <div class="wishlist-button">
+                <a href="https://store.steampowered.com/app/3725530/Chick_Clicker/" target="_blank">
+                    <button>
+                        <img src="images/steam-seeklogo.png" alt="" class="steam-icon">
+                        Buy on Steam
+                    </button>
+                </a>
+
+                <a href="https://github.com/BroskiRadical/Chick-Clicker/releases/download/v0.1/Chick.Clicker.zip" download>
+                    <button>
+                        <img src="images/download-icon.png" alt="" class="steam-icon">
+                        Download Demo
+                    </button>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <video class="hero-video-large" autoplay loop muted playsinline>
+            <source src="images/lost-in-the-grotto/Trailer.mov" type="video/mp4">
+        </video>
+    </div>
+
+    <section class="features content-block">
+
+        <h2>Features</h2>
+        <div class="features-divider"></div>
+
+        <ul>
+
+            <li>100% Handwritten Code</li>
+
+            <li>3D Modeling</li>
+
+            <li>Poseable Skeletons</li>
+
+            <li>Dialogue System</li>
+
+            <li>Cutscenes</li>
+
+            <li>Endless waves</li>
+
+            <li>First Person Shooter</li>
+
+            <li>Player driven shop</li>
+
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Screenshots</h2>
+
+        <div class="screenshot-grid">   
+
+            <img src="images/lost-in-the-grotto/screenshot_1.png" onclick="openLightbox(this.src)">
+
+            <img src="images/lost-in-the-grotto/screenshot_2.png" onclick="openLightbox(this.src)">
+
+            <img src="images/lost-in-the-grotto/screenshot_3.png" onclick="openLightbox(this.src)">
+
+            <img src="images/lost-in-the-grotto/screenshot_4.png" onclick="openLightbox(this.src)">
+
+            <img src="images/lost-in-the-grotto/screenshot_5.png" onclick="openLightbox(this.src)">
+
+            <img src="images/lost-in-the-grotto/screenshot_6.png" onclick="openLightbox(this.src)">
+
+        </div>
+
+    </section>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="">
+    </div>
+
+    <script src="../script.js"></script>
+
+</body>
+</html>

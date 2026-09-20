@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDF Terrain Generator</title>
+
+    <link rel="stylesheet" href="../sdf-terrain-generator.css">
+</head>
+<body>
+
+    <header>
+        <div class="site-header">
+            <a class="corner-link" href="../portfolio.html" aria-label="Back to Portfolio">
+                <img src="images/Home Icon.png">
+            </a>
+
+            <div class="header-title">
+                <span class="title-icon"><img src="images/sdf-terrain-generator/Icon.jpg"></span>
+                <h1>SDF Terrain Generator</h1>
+                <span class="version">v1.0.0</span>
+            </div>
+
+            <a class="corner-link" href="https://github.com/LawlerLeeLawler/Chick-Clicker" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <img src="images/Github Icon.png">
+            </a>
+        </div>
+
+        <div class="content-block">
+            <h2 class="content-heading">What is SDF Terrain Generator?</h2>
+            <div class="content-divider"></div>
+            <p>It's a tool for generating procedural terrain using Signed Distance Fields (SDFs).</p>
+            <p>
+                Using the power of SDFs, you can create unique and varied landscapes which you can then destroy or build upon. 
+            </p>
+            </div>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-row">
+            <video class="hero-video" autoplay loop muted playsinline>
+                <source src="images/sdf-terrain-generator/Movie_001.mp4" type="video/mp4">
+            </video>
+            <video class="hero-video" autoplay loop muted playsinline>
+                <source src="images/sdf-terrain-generator/Movie_002.mp4" type="video/mp4">
+            </video>
+        </div>
+        <p>
+            The left video shows a rotating 3D object being scanned and converted into the SDF grid in realtime. The right video shows the SDF grid being modified and new meshes being generated on the fly. 
+        </p>
+        <video class="hero-video-large" autoplay loop muted playsinline>
+            <source src="images/sdf-terrain-generator/Movie_003.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section class="features content-block">
+
+        <h2>Features</h2>
+        <div class="features-divider"></div>
+
+        <ul>
+
+            <li>Destructiable Terrain</li>
+
+            <li>Building</li>
+
+            <li>Algorithmically Generated Terrain</li>
+
+            <li>Cave Systems</li>
+
+            <li>Custom Terrain</li>
+
+            <li>Near realtime mesh generation</li>
+
+            <li>Chunk based rendering</li>
+
+        </ul>
+
+    </section>
+
+    <section>
+
+        <h2>Screenshots</h2>
+
+        <div class="screenshot-grid">   
+
+            <img src="images/sdf-terrain-generator/Screenshot_1.jpg" onclick="openLightbox(this.src)">
+
+            <img src="images/sdf-terrain-generator/Screenshot_2.jpg" onclick="openLightbox(this.src)">
+
+            <img src="images/sdf-terrain-generator/Screenshot_3.jpg" onclick="openLightbox(this.src)">
+
+            <img src="images/sdf-terrain-generator/Screenshot_4.jpg" onclick="openLightbox(this.src)">
+
+        </div>
+
+    </section>
+
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close">&times;</span>
+        <img id="lightbox-img" src="">
+    </div>
+
+    <script src="../script.js"></script>
+
+</body>
+</html>
