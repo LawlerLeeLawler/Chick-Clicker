@@ -199,14 +199,14 @@ button:focus {
 /* Mobile devices (screens up to 768px) */
 @media (max-width: 768px) {
     .hero img {
-        width: 70%;
+        width: calc(30% + 30% + 8px);
     }
 }
 
 /* Small mobile devices (screens up to 480px) */
 @media (max-width: 480px) {
     .hero img {
-        width: 85%;
+        width: 70%;
     }
 }
 
@@ -221,10 +221,13 @@ button:focus {
 }
 
 .hero-video-large {
-    width: 15%;
-    max-width: 970px;
+    width: auto;
+    height: min(50vh, 600px);
+    aspect-ratio: 9 / 16;
+    max-width: 100%;
     border-radius: 15px;
     display: block;
+    object-fit: cover;
 }
 
 /* Mobile devices (screens up to 768px) */
@@ -234,9 +237,13 @@ button:focus {
     }
     .hero-video {
         width: 45%;
+        aspect-ratio: 9 / 16;
+        object-fit: cover;
     }
     .hero-video-large {
         width: calc(45% + 45% + 8px);
+        height: auto;
+        aspect-ratio: 9 / 16;
     }
 }
 
@@ -247,6 +254,7 @@ button:focus {
     }
     .hero-video-large {
         width: 100%;
+        height: auto;
     }
 }
 
